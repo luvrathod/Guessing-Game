@@ -25,8 +25,6 @@ int main() {
 
 	int GameNumber = (rand() % (max - min + 1)) + min;
 
-	cout << GameNumber << endl;
-
 	string guess = "0";
 	int iCounter = NULL;
 	int PastArr[200] = {};
