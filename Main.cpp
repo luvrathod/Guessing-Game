@@ -20,7 +20,7 @@ int GuessConversion(string Guess) {
 }
 
 int main() {
-	const int max = 3; const int min = 1;
+	const int max = 100; const int min = 1;
 	unsigned seed = time(0); srand(seed);
 
 	int GameNumber = (rand() % (max - min + 1)) + min;
