@@ -1,11 +1,10 @@
 // here's the code:
 
-#include <iostream>
-#include <cstdlib>
-#include <string>
+//#include <iostream>
+//#include <cstdlib>
+//#include <string>
 
 using namespace std;
-
 
 int GuessConversion(string Guess) {
 	int aNum = NULL;
